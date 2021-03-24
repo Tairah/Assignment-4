@@ -1,4 +1,4 @@
-body {background-color: plum;}
+body { background-color: plum; }
 
 img {
   display: block;
@@ -9,7 +9,7 @@ img {
   border-radius: 50%;
 }
 
-body, h1, h2 {
+body {
   font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -17,16 +17,20 @@ h1 {
   font-size: 27px;
   color: green;
   padding: 25px 50px;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 p {
   font-size: 13px;
-  color: teal
+  color: teal;
+  border-radius: 9px;
+  margin-top: 10px;
 }
 
 h2 {
   font-size: 27px;
-  color: brown
+  color: brown;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 h1 {
@@ -35,20 +39,14 @@ h1 {
   margin-right: 150px;
   margin-left: 80px;
 }
+
 h2 {
   margin-bottom: 30px;
 }
-
-p.double {border-style: double;}
 
 p.double {
   border-style: double;
   border-width: thick;
   border-color:purple;
-  background-color: lightgrey
-}
-
-p {
-  border-radius: 9px;
-  margin-top: 10px;
+  background-color: lightgrey;
 }
