@@ -28,7 +28,7 @@ p {
   color: teal;
   border-radius: 9px;
   margin-top: 10px;
-  background-color: tan
+  background-color: tan;
 }
 
 h2 {
@@ -41,5 +41,5 @@ h2 {
 p.double {
   border-style: double;
   border-width: thick;
-  border-color: purple
+  border-color: purple;
 }
